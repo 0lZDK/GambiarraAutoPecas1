@@ -1,0 +1,10 @@
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\bin\Debug\GambiarraAutoPecas1.exe.config
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\bin\Debug\GambiarraAutoPecas1.exe
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\bin\Debug\GambiarraAutoPecas1.pdb
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.csproj.AssemblyReference.cache
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.Form1.resources
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.Properties.Resources.resources
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.csproj.GenerateResource.cache
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.csproj.CoreCompileInputs.cache
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.exe
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.pdb
