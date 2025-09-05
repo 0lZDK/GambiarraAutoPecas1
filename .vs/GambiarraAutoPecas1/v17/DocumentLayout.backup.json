@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mateus.lfarias\\source\\repos\\GambiarraAutoPecas1\\",
+  "WorkspaceRootPath": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|c:\\users\\mateus.lfarias\\source\\repos\\gambiarraautopecas1\\gambiarraautopecas1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarraautopecas1\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|c:\\users\\mateus.lfarias\\source\\repos\\gambiarraautopecas1\\gambiarraautopecas1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarraautopecas1\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarraautopecas1\\telacompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telacompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarraautopecas1\\telaestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telaestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarraautopecas1\\telaclienteloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telaclienteloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +30,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelaEstoque.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaEstoque.cs",
+              "RelativeDocumentMoniker": "GambiarraAutoPecas1\\TelaEstoque.cs",
+              "ToolTip": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaEstoque.cs [Design]",
+              "RelativeToolTip": "GambiarraAutoPecas1\\TelaEstoque.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T23:17:46.086Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TelaClienteLoja.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaClienteLoja.cs",
+              "RelativeDocumentMoniker": "GambiarraAutoPecas1\\TelaClienteLoja.cs",
+              "ToolTip": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaClienteLoja.cs [Design]",
+              "RelativeToolTip": "GambiarraAutoPecas1\\TelaClienteLoja.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T23:17:16.521Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TelaCompras.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\Source\\Repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaCompras.cs",
+              "RelativeDocumentMoniker": "GambiarraAutoPecas1\\TelaCompras.cs",
+              "ToolTip": "C:\\Users\\gustavo.pedro1\\Source\\Repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaCompras.cs [Design]",
+              "RelativeToolTip": "GambiarraAutoPecas1\\TelaCompras.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T23:17:00.779Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\mateus.lfarias\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\Form1.cs",
-              "RelativeDocumentMoniker": "GambiarraAutoPecas1\\Form1.cs",
-              "ToolTip": "C:\\Users\\mateus.lfarias\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\Form1.cs",
-              "RelativeToolTip": "GambiarraAutoPecas1\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
+              "Title": "TelaInicial.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\Source\\Repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaInicial.cs",
+              "RelativeDocumentMoniker": "GambiarraAutoPecas1\\TelaInicial.cs",
+              "ToolTip": "C:\\Users\\gustavo.pedro1\\Source\\Repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaInicial.cs",
+              "RelativeToolTip": "GambiarraAutoPecas1\\TelaInicial.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T22:52:25.339Z",
               "EditorCaption": ""
@@ -36,11 +88,11 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\mateus.lfarias\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\Form1.cs",
-              "RelativeDocumentMoniker": "GambiarraAutoPecas1\\Form1.cs",
-              "ToolTip": "C:\\Users\\mateus.lfarias\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\Form1.cs [Design]",
-              "RelativeToolTip": "GambiarraAutoPecas1\\Form1.cs [Design]",
+              "Title": "TelaInicial.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\Source\\Repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaInicial.cs",
+              "RelativeDocumentMoniker": "GambiarraAutoPecas1\\TelaInicial.cs",
+              "ToolTip": "C:\\Users\\gustavo.pedro1\\Source\\Repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaInicial.cs [Design]",
+              "RelativeToolTip": "GambiarraAutoPecas1\\TelaInicial.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T22:51:13.694Z",
               "EditorCaption": " [Design]"
