@@ -21,5 +21,22 @@ namespace GambiarraAutoPecas1
         {
             this.Close();
         }
+
+        private void TelaInicial_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void estoqueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TelaEstoque telaestoque = new TelaEstoque();
+            telaestoque.ShowDialog();
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TelaClienteLoja telaclienteloka = new TelaClienteLoja();
+            telaclienteloka.ShowDialog();
+        }
     }
 }
