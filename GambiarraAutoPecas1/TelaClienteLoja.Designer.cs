@@ -135,7 +135,7 @@
             // 
             // maskedTextBox2
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(103, 181);
+            this.maskedTextBox2.Location = new System.Drawing.Point(102, 181);
             this.maskedTextBox2.Mask = "(99)99999-9999";
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(100, 20);
@@ -291,6 +291,7 @@
             this.Name = "TelaClienteLoja";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaClienteLoja";
+            this.Load += new System.EventHandler(this.TelaClienteLoja_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

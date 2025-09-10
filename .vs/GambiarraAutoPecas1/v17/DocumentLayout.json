@@ -7,24 +7,44 @@
       "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telapedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarraautopecas1\\telapedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telapedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarraautopecas1\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\gambiarraautopecas1\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarraautopecas1\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DF985785-6E9A-4BD5-AC31-7FEDF6AEA999}|Gambiarra_DATA\\Gambiarra_DATA.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarra_data\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF985785-6E9A-4BD5-AC31-7FEDF6AEA999}|Gambiarra_DATA\\Gambiarra_DATA.csproj|solutionrelative:gambiarra_data\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF985785-6E9A-4BD5-AC31-7FEDF6AEA999}|Gambiarra_DATA\\Gambiarra_DATA.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarra_data\\pecas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF985785-6E9A-4BD5-AC31-7FEDF6AEA999}|Gambiarra_DATA\\Gambiarra_DATA.csproj|solutionrelative:gambiarra_data\\pecas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF985785-6E9A-4BD5-AC31-7FEDF6AEA999}|Gambiarra_DATA\\Gambiarra_DATA.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarra_data\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF985785-6E9A-4BD5-AC31-7FEDF6AEA999}|Gambiarra_DATA\\Gambiarra_DATA.csproj|solutionrelative:gambiarra_data\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF985785-6E9A-4BD5-AC31-7FEDF6AEA999}|Gambiarra_DATA\\Gambiarra_DATA.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarra_data\\cliente_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF985785-6E9A-4BD5-AC31-7FEDF6AEA999}|Gambiarra_DATA\\Gambiarra_DATA.csproj|solutionrelative:gambiarra_data\\cliente_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF985785-6E9A-4BD5-AC31-7FEDF6AEA999}|Gambiarra_DATA\\Gambiarra_DATA.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarra_data\\pecas_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF985785-6E9A-4BD5-AC31-7FEDF6AEA999}|Gambiarra_DATA\\Gambiarra_DATA.csproj|solutionrelative:gambiarra_data\\pecas_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF985785-6E9A-4BD5-AC31-7FEDF6AEA999}|Gambiarra_DATA\\Gambiarra_DATA.csproj|c:\\users\\gustavo.pedro1\\source\\repos\\gambiarraautopecas1\\gambiarra_data\\pedidos_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF985785-6E9A-4BD5-AC31-7FEDF6AEA999}|Gambiarra_DATA\\Gambiarra_DATA.csproj|solutionrelative:gambiarra_data\\pedidos_dao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\gambiarraautopecas1\\telaclienteloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telaclienteloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\gambiarraautopecas1\\telaestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telaestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\gambiarraautopecas1\\telaclienteloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telaclienteloja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\gambiarraautopecas1\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{65E55EB5-9AAC-4ACC-A2D1-E8013A2A85DA}|GambiarraAutoPecas1\\GambiarraAutoPecas1.csproj|solutionrelative:gambiarraautopecas1\\telainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +66,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TelaPedidos.cs",
-              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\Source\\Repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaPedidos.cs",
-              "RelativeDocumentMoniker": "GambiarraAutoPecas1\\TelaPedidos.cs",
-              "ToolTip": "C:\\Users\\gustavo.pedro1\\Source\\Repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaPedidos.cs",
-              "RelativeToolTip": "GambiarraAutoPecas1\\TelaPedidos.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIAwwBUAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Pedidos_DAO.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\Gambiarra_DATA\\Pedidos_DAO.cs",
+              "RelativeDocumentMoniker": "Gambiarra_DATA\\Pedidos_DAO.cs",
+              "ToolTip": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\Gambiarra_DATA\\Pedidos_DAO.cs",
+              "RelativeToolTip": "Gambiarra_DATA\\Pedidos_DAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T00:18:33.6Z",
+              "WhenOpened": "2025-09-10T01:02:35.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pecas_DAO.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\Gambiarra_DATA\\Pecas_DAO.cs",
+              "RelativeDocumentMoniker": "Gambiarra_DATA\\Pecas_DAO.cs",
+              "ToolTip": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\Gambiarra_DATA\\Pecas_DAO.cs",
+              "RelativeToolTip": "Gambiarra_DATA\\Pecas_DAO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T01:01:00.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cliente_DAO.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\Gambiarra_DATA\\Cliente_DAO.cs",
+              "RelativeDocumentMoniker": "Gambiarra_DATA\\Cliente_DAO.cs",
+              "ToolTip": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\Gambiarra_DATA\\Cliente_DAO.cs",
+              "RelativeToolTip": "Gambiarra_DATA\\Cliente_DAO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T00:57:40.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pedidos.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\Gambiarra_DATA\\Pedidos.cs",
+              "RelativeDocumentMoniker": "Gambiarra_DATA\\Pedidos.cs",
+              "ToolTip": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\Gambiarra_DATA\\Pedidos.cs",
+              "RelativeToolTip": "Gambiarra_DATA\\Pedidos.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T00:52:46.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pecas.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\Gambiarra_DATA\\Pecas.cs",
+              "RelativeDocumentMoniker": "Gambiarra_DATA\\Pecas.cs",
+              "ToolTip": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\Gambiarra_DATA\\Pecas.cs",
+              "RelativeToolTip": "Gambiarra_DATA\\Pecas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T00:50:44.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\Source\\Repos\\GambiarraAutoPecas1\\Gambiarra_DATA\\Cliente.cs",
+              "RelativeDocumentMoniker": "Gambiarra_DATA\\Cliente.cs",
+              "ToolTip": "C:\\Users\\gustavo.pedro1\\Source\\Repos\\GambiarraAutoPecas1\\Gambiarra_DATA\\Cliente.cs",
+              "RelativeToolTip": "Gambiarra_DATA\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T00:47:09.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TelaInicial.cs",
               "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaInicial.cs",
               "RelativeDocumentMoniker": "GambiarraAutoPecas1\\TelaInicial.cs",
@@ -74,9 +159,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TelaPedidos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\Source\\Repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaPedidos.cs",
+              "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaPedidos.cs",
               "RelativeDocumentMoniker": "GambiarraAutoPecas1\\TelaPedidos.cs",
-              "ToolTip": "C:\\Users\\gustavo.pedro1\\Source\\Repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaPedidos.cs [Design]",
+              "ToolTip": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaPedidos.cs [Design]",
               "RelativeToolTip": "GambiarraAutoPecas1\\TelaPedidos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T23:18:17.676Z",
@@ -84,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "TelaInicial.cs [Design]",
               "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaInicial.cs",
               "RelativeDocumentMoniker": "GambiarraAutoPecas1\\TelaInicial.cs",
@@ -96,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "TelaEstoque.cs [Design]",
               "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaEstoque.cs",
               "RelativeDocumentMoniker": "GambiarraAutoPecas1\\TelaEstoque.cs",
@@ -108,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "TelaClienteLoja.cs [Design]",
               "DocumentMoniker": "C:\\Users\\gustavo.pedro1\\source\\repos\\GambiarraAutoPecas1\\GambiarraAutoPecas1\\TelaClienteLoja.cs",
               "RelativeDocumentMoniker": "GambiarraAutoPecas1\\TelaClienteLoja.cs",
