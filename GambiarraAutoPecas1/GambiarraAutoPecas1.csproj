@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TelaPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaPedidos.Designer.cs">
+      <DependentUpon>TelaPedidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelaClienteLoja.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TelaClienteLoja.Designer.cs">
       <DependentUpon>TelaClienteLoja.cs</DependentUpon>
-    </Compile>
-    <Compile Include="TelaCompras.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TelaCompras.Designer.cs">
-      <DependentUpon>TelaCompras.cs</DependentUpon>
     </Compile>
     <Compile Include="TelaEstoque.cs">
       <SubType>Form</SubType>
@@ -72,11 +72,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="TelaPedidos.resx">
+      <DependentUpon>TelaPedidos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TelaClienteLoja.resx">
       <DependentUpon>TelaClienteLoja.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TelaCompras.resx">
-      <DependentUpon>TelaCompras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TelaEstoque.resx">
       <DependentUpon>TelaEstoque.cs</DependentUpon>

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GambiarraAutoPecas1
 {
-    public partial class TelaCompras : Form
+    public partial class TelaPedidos : Form
     {
-        public TelaCompras()
+        public TelaPedidos()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
