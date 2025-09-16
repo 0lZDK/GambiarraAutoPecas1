@@ -106,5 +106,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gambiarra_DATA\Gambiarra_DATA.csproj">
+      <Project>{df985785-6e9a-4bd5-ac31-7fedf6aea999}</Project>
+      <Name>Gambiarra_DATA</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

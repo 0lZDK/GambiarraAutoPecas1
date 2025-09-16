@@ -21,3 +21,7 @@ C:\Users\gustavo.pedro1\Source\Repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj
 C:\Users\gustavo.pedro1\Source\Repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.TelaClienteLoja.resources
 C:\Users\gustavo.pedro1\Source\Repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.TelaEstoque.resources
 C:\Users\gustavo.pedro1\Source\Repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.TelaPedidos.resources
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.TelaPedidos.resources
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.TelaClienteLoja.resources
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.TelaEstoque.resources
+C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.TelaInicial.resources

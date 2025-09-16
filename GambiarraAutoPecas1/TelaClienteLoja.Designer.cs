@@ -33,17 +33,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.txbVeic = new System.Windows.Forms.TextBox();
+            this.txbEmail = new System.Windows.Forms.TextBox();
+            this.txbNome = new System.Windows.Forms.TextBox();
+            this.mtbCpf = new System.Windows.Forms.MaskedTextBox();
+            this.mtbTel = new System.Windows.Forms.MaskedTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txbComplemento = new System.Windows.Forms.TextBox();
+            this.mtbCep = new System.Windows.Forms.MaskedTextBox();
+            this.txbBairro = new System.Windows.Forms.TextBox();
+            this.txbNumero = new System.Windows.Forms.TextBox();
+            this.txbLogradouro = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -51,6 +51,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
+            this.btnCadastro = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -104,50 +105,50 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Telefone :";
             // 
-            // textBox4
+            // txbVeic
             // 
-            this.textBox4.Location = new System.Drawing.Point(103, 147);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(420, 20);
-            this.textBox4.TabIndex = 9;
+            this.txbVeic.Location = new System.Drawing.Point(103, 147);
+            this.txbVeic.Name = "txbVeic";
+            this.txbVeic.Size = new System.Drawing.Size(420, 20);
+            this.txbVeic.TabIndex = 9;
             // 
-            // textBox5
+            // txbEmail
             // 
-            this.textBox5.Location = new System.Drawing.Point(103, 119);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 10;
+            this.txbEmail.Location = new System.Drawing.Point(103, 119);
+            this.txbEmail.Name = "txbEmail";
+            this.txbEmail.Size = new System.Drawing.Size(420, 20);
+            this.txbEmail.TabIndex = 10;
             // 
-            // textBox7
+            // txbNome
             // 
-            this.textBox7.Location = new System.Drawing.Point(103, 58);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(420, 20);
-            this.textBox7.TabIndex = 12;
+            this.txbNome.Location = new System.Drawing.Point(103, 58);
+            this.txbNome.Name = "txbNome";
+            this.txbNome.Size = new System.Drawing.Size(420, 20);
+            this.txbNome.TabIndex = 12;
             // 
-            // maskedTextBox1
+            // mtbCpf
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(103, 87);
-            this.maskedTextBox1.Mask = "999.999.999-99";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox1.TabIndex = 13;
+            this.mtbCpf.Location = new System.Drawing.Point(103, 87);
+            this.mtbCpf.Mask = "999.999.999-99";
+            this.mtbCpf.Name = "mtbCpf";
+            this.mtbCpf.Size = new System.Drawing.Size(100, 20);
+            this.mtbCpf.TabIndex = 13;
             // 
-            // maskedTextBox2
+            // mtbTel
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(102, 181);
-            this.maskedTextBox2.Mask = "(99)99999-9999";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox2.TabIndex = 14;
+            this.mtbTel.Location = new System.Drawing.Point(102, 181);
+            this.mtbTel.Mask = "(99)99999-9999";
+            this.mtbTel.Name = "mtbTel";
+            this.mtbTel.Size = new System.Drawing.Size(100, 20);
+            this.mtbTel.TabIndex = 14;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.maskedTextBox3);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txbComplemento);
+            this.groupBox1.Controls.Add(this.mtbCep);
+            this.groupBox1.Controls.Add(this.txbBairro);
+            this.groupBox1.Controls.Add(this.txbNumero);
+            this.groupBox1.Controls.Add(this.txbLogradouro);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label8);
@@ -161,41 +162,41 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Endereço";
             // 
-            // textBox6
+            // txbComplemento
             // 
-            this.textBox6.Location = new System.Drawing.Point(94, 98);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(420, 20);
-            this.textBox6.TabIndex = 19;
+            this.txbComplemento.Location = new System.Drawing.Point(94, 98);
+            this.txbComplemento.Name = "txbComplemento";
+            this.txbComplemento.Size = new System.Drawing.Size(420, 20);
+            this.txbComplemento.TabIndex = 19;
             // 
-            // maskedTextBox3
+            // mtbCep
             // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(573, 59);
-            this.maskedTextBox3.Mask = "99999-999";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(76, 20);
-            this.maskedTextBox3.TabIndex = 18;
+            this.mtbCep.Location = new System.Drawing.Point(573, 59);
+            this.mtbCep.Mask = "99999-999";
+            this.mtbCep.Name = "mtbCep";
+            this.mtbCep.Size = new System.Drawing.Size(76, 20);
+            this.mtbCep.TabIndex = 18;
             // 
-            // textBox3
+            // txbBairro
             // 
-            this.textBox3.Location = new System.Drawing.Point(94, 62);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(420, 20);
-            this.textBox3.TabIndex = 17;
+            this.txbBairro.Location = new System.Drawing.Point(94, 62);
+            this.txbBairro.Name = "txbBairro";
+            this.txbBairro.Size = new System.Drawing.Size(420, 20);
+            this.txbBairro.TabIndex = 17;
             // 
-            // textBox2
+            // txbNumero
             // 
-            this.textBox2.Location = new System.Drawing.Point(573, 26);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(46, 20);
-            this.textBox2.TabIndex = 16;
+            this.txbNumero.Location = new System.Drawing.Point(573, 26);
+            this.txbNumero.Name = "txbNumero";
+            this.txbNumero.Size = new System.Drawing.Size(46, 20);
+            this.txbNumero.TabIndex = 16;
             // 
-            // textBox1
+            // txbLogradouro
             // 
-            this.textBox1.Location = new System.Drawing.Point(94, 26);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(420, 20);
-            this.textBox1.TabIndex = 13;
+            this.txbLogradouro.Location = new System.Drawing.Point(94, 26);
+            this.txbLogradouro.Name = "txbLogradouro";
+            this.txbLogradouro.Size = new System.Drawing.Size(420, 20);
+            this.txbLogradouro.TabIndex = 13;
             // 
             // label10
             // 
@@ -268,20 +269,31 @@
             this.label11.TabIndex = 17;
             this.label11.Text = "Cadastro de Clientes";
             // 
+            // btnCadastro
+            // 
+            this.btnCadastro.Location = new System.Drawing.Point(506, 354);
+            this.btnCadastro.Name = "btnCadastro";
+            this.btnCadastro.Size = new System.Drawing.Size(75, 23);
+            this.btnCadastro.TabIndex = 18;
+            this.btnCadastro.Text = "Cadastrar";
+            this.btnCadastro.UseVisualStyleBackColor = true;
+            this.btnCadastro.Click += new System.EventHandler(this.btnCadastro_Click);
+            // 
             // TelaClienteLoja
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(668, 382);
+            this.Controls.Add(this.btnCadastro);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.mtbTel);
+            this.Controls.Add(this.mtbCpf);
+            this.Controls.Add(this.txbNome);
+            this.Controls.Add(this.txbEmail);
+            this.Controls.Add(this.txbVeic);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -306,23 +318,24 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.TextBox txbVeic;
+        private System.Windows.Forms.TextBox txbEmail;
+        private System.Windows.Forms.TextBox txbNome;
+        private System.Windows.Forms.MaskedTextBox mtbCpf;
+        private System.Windows.Forms.MaskedTextBox mtbTel;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txbNumero;
+        private System.Windows.Forms.TextBox txbLogradouro;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.TextBox txbBairro;
+        private System.Windows.Forms.TextBox txbComplemento;
+        private System.Windows.Forms.MaskedTextBox mtbCep;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button btnCadastro;
     }
 }
