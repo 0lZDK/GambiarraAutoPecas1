@@ -31,5 +31,10 @@ namespace GambiarraAutoPecas1
         {
             this.Close();
         }
+
+        private void TelaClienteLoja_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
