@@ -25,7 +25,7 @@ namespace Gambiarra_DATA
 
         public DataSet BuscarCliente(string busca)
         {
-            const string query = @"SELECT * FROM Cliente WHERE nome_cliente LIKE @busca OR cpf LIKE @busca";
+            const string query = @"SELECT * FROM Clientes WHERE nome_cliente LIKE @busca OR cpf LIKE @busca";
 
             try
             {
@@ -51,7 +51,7 @@ namespace Gambiarra_DATA
 
         public void InserirCliente(Cliente cliente)
         {
-            const string query = @"INSERT INTO Cliente (nome_cliente, cpf, email, veiculo, telefone, logradouro, numero_casa, bairro, cep, complemento)
+            const string query = @"INSERT INTO Clientes (nome_cliente, cpf, email, veiculo, telefone, logradouro, numero_casa, bairro, cep, complemento)
                                            VALUES (@nome_cliente, @cpf, @email, @veiculo, @telefone, @logradouro, @numero_casa, @bairro, @cep, @complemento)";
             try
             {

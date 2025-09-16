@@ -31,12 +31,12 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cbFabricante = new System.Windows.Forms.ComboBox();
             this.btnGravar = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cbMontadora = new System.Windows.Forms.ComboBox();
+            this.txbModelo = new System.Windows.Forms.TextBox();
+            this.txbMarca = new System.Windows.Forms.TextBox();
+            this.txbPeca = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -45,6 +45,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dtgEstoque = new System.Windows.Forms.DataGridView();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txbQuantidade = new System.Windows.Forms.TextBox();
+            this.btnBusca = new System.Windows.Forms.Button();
+            this.txbBuscarPeca = new System.Windows.Forms.TextBox();
+            this.btnSair = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -58,18 +63,20 @@
             this.tabControl1.Location = new System.Drawing.Point(-4, -3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(538, 317);
+            this.tabControl1.Size = new System.Drawing.Size(765, 451);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.txbQuantidade);
+            this.tabPage1.Controls.Add(this.label7);
             this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.comboBox2);
+            this.tabPage1.Controls.Add(this.cbFabricante);
             this.tabPage1.Controls.Add(this.btnGravar);
-            this.tabPage1.Controls.Add(this.comboBox1);
-            this.tabPage1.Controls.Add(this.textBox3);
-            this.tabPage1.Controls.Add(this.textBox2);
-            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.cbMontadora);
+            this.tabPage1.Controls.Add(this.txbModelo);
+            this.tabPage1.Controls.Add(this.txbMarca);
+            this.tabPage1.Controls.Add(this.txbPeca);
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.label4);
@@ -79,14 +86,15 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1086, 291);
+            this.tabPage1.Size = new System.Drawing.Size(757, 425);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Cadastro de Peças";
             this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(491, 268);
+            this.button1.Location = new System.Drawing.Point(491, 298);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(39, 23);
             this.button1.TabIndex = 14;
@@ -94,30 +102,31 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // comboBox2
+            // cbFabricante
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbFabricante.FormattingEnabled = true;
+            this.cbFabricante.Items.AddRange(new object[] {
             "Genuina/Original",
             "Paralela"});
-            this.comboBox2.Location = new System.Drawing.Point(107, 215);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(423, 21);
-            this.comboBox2.TabIndex = 13;
+            this.cbFabricante.Location = new System.Drawing.Point(107, 215);
+            this.cbFabricante.Name = "cbFabricante";
+            this.cbFabricante.Size = new System.Drawing.Size(423, 21);
+            this.cbFabricante.TabIndex = 13;
             // 
             // btnGravar
             // 
-            this.btnGravar.Location = new System.Drawing.Point(24, 262);
+            this.btnGravar.Location = new System.Drawing.Point(24, 298);
             this.btnGravar.Name = "btnGravar";
             this.btnGravar.Size = new System.Drawing.Size(60, 23);
             this.btnGravar.TabIndex = 12;
             this.btnGravar.Text = "Gravar";
             this.btnGravar.UseVisualStyleBackColor = true;
+            this.btnGravar.Click += new System.EventHandler(this.btnGravar_Click);
             // 
-            // comboBox1
+            // cbMontadora
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbMontadora.FormattingEnabled = true;
+            this.cbMontadora.Items.AddRange(new object[] {
             "Agrale",
             "Puma",
             "Mascarello",
@@ -164,35 +173,35 @@
             "Subaru",
             "SsangYong",
             "Troller"});
-            this.comboBox1.Location = new System.Drawing.Point(107, 175);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(423, 21);
-            this.comboBox1.TabIndex = 11;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.cbMontadora.Location = new System.Drawing.Point(107, 175);
+            this.cbMontadora.Name = "cbMontadora";
+            this.cbMontadora.Size = new System.Drawing.Size(423, 21);
+            this.cbMontadora.TabIndex = 11;
+            this.cbMontadora.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // textBox3
+            // txbModelo
             // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(107, 133);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(423, 20);
-            this.textBox3.TabIndex = 10;
+            this.txbModelo.BackColor = System.Drawing.Color.White;
+            this.txbModelo.Location = new System.Drawing.Point(107, 133);
+            this.txbModelo.Name = "txbModelo";
+            this.txbModelo.Size = new System.Drawing.Size(423, 20);
+            this.txbModelo.TabIndex = 10;
             // 
-            // textBox2
+            // txbMarca
             // 
-            this.textBox2.BackColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(107, 89);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(423, 20);
-            this.textBox2.TabIndex = 9;
+            this.txbMarca.BackColor = System.Drawing.Color.White;
+            this.txbMarca.Location = new System.Drawing.Point(107, 89);
+            this.txbMarca.Name = "txbMarca";
+            this.txbMarca.Size = new System.Drawing.Size(423, 20);
+            this.txbMarca.TabIndex = 9;
             // 
-            // textBox1
+            // txbPeca
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(107, 53);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(423, 20);
-            this.textBox1.TabIndex = 8;
+            this.txbPeca.BackColor = System.Drawing.Color.White;
+            this.txbPeca.Location = new System.Drawing.Point(107, 53);
+            this.txbPeca.Name = "txbPeca";
+            this.txbPeca.Size = new System.Drawing.Size(423, 20);
+            this.txbPeca.TabIndex = 8;
             // 
             // label6
             // 
@@ -262,11 +271,14 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.btnSair);
+            this.tabPage2.Controls.Add(this.txbBuscarPeca);
+            this.tabPage2.Controls.Add(this.btnBusca);
             this.tabPage2.Controls.Add(this.dtgEstoque);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(530, 291);
+            this.tabPage2.Size = new System.Drawing.Size(757, 425);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Estoque";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -276,15 +288,63 @@
             this.dtgEstoque.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgEstoque.Location = new System.Drawing.Point(6, 6);
             this.dtgEstoque.Name = "dtgEstoque";
-            this.dtgEstoque.Size = new System.Drawing.Size(1074, 279);
+            this.dtgEstoque.ReadOnly = true;
+            this.dtgEstoque.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgEstoque.Size = new System.Drawing.Size(745, 279);
             this.dtgEstoque.TabIndex = 0;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label7.Location = new System.Drawing.Point(24, 259);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(64, 15);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Quantidade";
+            // 
+            // txbQuantidade
+            // 
+            this.txbQuantidade.BackColor = System.Drawing.Color.White;
+            this.txbQuantidade.Location = new System.Drawing.Point(107, 256);
+            this.txbQuantidade.Name = "txbQuantidade";
+            this.txbQuantidade.Size = new System.Drawing.Size(63, 20);
+            this.txbQuantidade.TabIndex = 16;
+            // 
+            // btnBusca
+            // 
+            this.btnBusca.Location = new System.Drawing.Point(12, 302);
+            this.btnBusca.Name = "btnBusca";
+            this.btnBusca.Size = new System.Drawing.Size(75, 23);
+            this.btnBusca.TabIndex = 1;
+            this.btnBusca.Text = "Buscar";
+            this.btnBusca.UseVisualStyleBackColor = true;
+            this.btnBusca.Click += new System.EventHandler(this.btnBusca_Click);
+            // 
+            // txbBuscarPeca
+            // 
+            this.txbBuscarPeca.Location = new System.Drawing.Point(94, 304);
+            this.txbBuscarPeca.Name = "txbBuscarPeca";
+            this.txbBuscarPeca.Size = new System.Drawing.Size(192, 20);
+            this.txbBuscarPeca.TabIndex = 2;
+            // 
+            // btnSair
+            // 
+            this.btnSair.Location = new System.Drawing.Point(676, 304);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(75, 23);
+            this.btnSair.TabIndex = 3;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // TelaEstoque
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(537, 316);
+            this.ClientSize = new System.Drawing.Size(758, 460);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TelaEstoque";
@@ -294,6 +354,7 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgEstoque)).EndInit();
             this.ResumeLayout(false);
 
@@ -310,13 +371,18 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txbModelo;
+        private System.Windows.Forms.TextBox txbMarca;
+        private System.Windows.Forms.TextBox txbPeca;
+        private System.Windows.Forms.ComboBox cbMontadora;
         private System.Windows.Forms.Button btnGravar;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cbFabricante;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dtgEstoque;
+        private System.Windows.Forms.TextBox txbQuantidade;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txbBuscarPeca;
+        private System.Windows.Forms.Button btnBusca;
+        private System.Windows.Forms.Button btnSair;
     }
 }

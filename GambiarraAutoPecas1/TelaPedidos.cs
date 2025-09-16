@@ -31,7 +31,7 @@ namespace GambiarraAutoPecas1
         {
             if(string.IsNullOrWhiteSpace(txbBuscarCLi.Text))
             {
-                //asdasdafasfwa
+                
                 MessageBox.Show("Por favor, insira um nome ou CPF para buscar.", "Busca Inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
@@ -42,11 +42,11 @@ namespace GambiarraAutoPecas1
             dtgBuscaCli.DefaultCellStyle.Font = new Font("Arial", 9, FontStyle.Bold);
             dtgBuscaCli.RowHeadersWidth = 25;
 
-            dtgBuscaCli.Columns["id_cliente"].AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
-            dtgBuscaCli.Columns["id_cliente"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dtgBuscaCli.Columns["id_cliente"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dtgBuscaCli.Columns["id_cliente"].DefaultCellStyle.Padding = new Padding(4, 0, 0, 0);
-            dtgBuscaCli.Columns["id_cliente"].HeaderText = "ID";
+            dtgBuscaCli.Columns["idcliente"].AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
+            dtgBuscaCli.Columns["idcliente"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dtgBuscaCli.Columns["idcliente"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dtgBuscaCli.Columns["idcliente"].DefaultCellStyle.Padding = new Padding(4, 0, 0, 0);
+            dtgBuscaCli.Columns["idcliente"].HeaderText = "ID";
 
             dtgBuscaCli.Columns["nome_cliente"].AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
             dtgBuscaCli.Columns["nome_cliente"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
@@ -118,7 +118,7 @@ namespace GambiarraAutoPecas1
             dsClientes = cliente_DAO.BuscarCliente(busca);
 
             dtgBuscaCli.DataSource = dsClientes;
-            dtgBuscaCli.DataMember = "Cliente";
+            dtgBuscaCli.DataMember = "Clientes";
         }
 
 

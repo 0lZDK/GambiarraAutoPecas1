@@ -4,3 +4,9 @@ C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\Gambiarra_DATA\obj\Debu
 C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\Gambiarra_DATA\obj\Debug\Gambiarra_DATA.csproj.CoreCompileInputs.cache
 C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\Gambiarra_DATA\obj\Debug\Gambiarra_DATA.dll
 C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\Gambiarra_DATA\obj\Debug\Gambiarra_DATA.pdb
+C:\Users\gustavo.pedro1\source\repos\GambiarraAutoPecas1\Gambiarra_DATA\bin\Debug\Gambiarra_DATA.dll
+C:\Users\gustavo.pedro1\source\repos\GambiarraAutoPecas1\Gambiarra_DATA\bin\Debug\Gambiarra_DATA.pdb
+C:\Users\gustavo.pedro1\source\repos\GambiarraAutoPecas1\Gambiarra_DATA\obj\Debug\Gambiarra_DATA.csproj.AssemblyReference.cache
+C:\Users\gustavo.pedro1\source\repos\GambiarraAutoPecas1\Gambiarra_DATA\obj\Debug\Gambiarra_DATA.csproj.CoreCompileInputs.cache
+C:\Users\gustavo.pedro1\source\repos\GambiarraAutoPecas1\Gambiarra_DATA\obj\Debug\Gambiarra_DATA.dll
+C:\Users\gustavo.pedro1\source\repos\GambiarraAutoPecas1\Gambiarra_DATA\obj\Debug\Gambiarra_DATA.pdb
