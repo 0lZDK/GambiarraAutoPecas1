@@ -28,3 +28,5 @@ C:\Users\mateus.lfarias\source\repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj
 C:\Users\gustavo.pedro1\Source\Repos\GambiarraAutoPecas1\GambiarraAutoPecas1\bin\Debug\Gambiarra_DATA.dll
 C:\Users\gustavo.pedro1\Source\Repos\GambiarraAutoPecas1\GambiarraAutoPecas1\bin\Debug\Gambiarra_DATA.pdb
 C:\Users\gustavo.pedro1\Source\Repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\Gambiarr.C7D193D8.Up2Date
+C:\Users\gustavo.pedro1\Source\Repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.ClienteAltera.resources
+C:\Users\gustavo.pedro1\Source\Repos\GambiarraAutoPecas1\GambiarraAutoPecas1\obj\Debug\GambiarraAutoPecas1.Gerenciar.resources

@@ -121,6 +121,9 @@ namespace GambiarraAutoPecas1
             dtgBuscaCli.DataMember = "Clientes";
         }
 
+        private void dtgBuscaCli_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
+        }
     }
 }

@@ -54,5 +54,11 @@ namespace GambiarraAutoPecas1
         {
            
         }
+
+        private void gerenciarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Gerenciar gerenciar = new Gerenciar();
+            gerenciar.ShowDialog();
+        }
     }
 }

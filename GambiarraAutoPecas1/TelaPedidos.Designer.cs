@@ -43,9 +43,9 @@
             this.tbxQuantidadePed = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btnAlterar = new System.Windows.Forms.Button();
             this.btnDeletar = new System.Windows.Forms.Button();
             this.dtgPedidos = new System.Windows.Forms.DataGridView();
-            this.btnAlterar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgBuscaCli)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -65,6 +65,7 @@
             this.dtgBuscaCli.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgBuscaCli.Size = new System.Drawing.Size(480, 317);
             this.dtgBuscaCli.TabIndex = 0;
+            this.dtgBuscaCli.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgBuscaCli_CellContentClick);
             // 
             // tabControl1
             // 
@@ -207,6 +208,15 @@
             this.tabPage2.Text = "Pedidos";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // btnAlterar
+            // 
+            this.btnAlterar.Location = new System.Drawing.Point(7, 345);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(75, 23);
+            this.btnAlterar.TabIndex = 2;
+            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.UseVisualStyleBackColor = true;
+            // 
             // btnDeletar
             // 
             this.btnDeletar.Location = new System.Drawing.Point(970, 344);
@@ -223,15 +233,6 @@
             this.dtgPedidos.Name = "dtgPedidos";
             this.dtgPedidos.Size = new System.Drawing.Size(1043, 334);
             this.dtgPedidos.TabIndex = 0;
-            // 
-            // btnAlterar
-            // 
-            this.btnAlterar.Location = new System.Drawing.Point(7, 345);
-            this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(75, 23);
-            this.btnAlterar.TabIndex = 2;
-            this.btnAlterar.Text = "Alterar";
-            this.btnAlterar.UseVisualStyleBackColor = true;
             // 
             // TelaPedidos
             // 

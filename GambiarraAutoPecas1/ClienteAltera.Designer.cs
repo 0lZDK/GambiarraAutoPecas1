@@ -1,6 +1,6 @@
 ﻿namespace GambiarraAutoPecas1
 {
-    partial class TelaClienteLoja
+    partial class ClienteAltera
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txbVeic = new System.Windows.Forms.TextBox();
-            this.txbEmail = new System.Windows.Forms.TextBox();
-            this.txbNome = new System.Windows.Forms.TextBox();
-            this.mtbCpf = new System.Windows.Forms.MaskedTextBox();
-            this.mtbTel = new System.Windows.Forms.MaskedTextBox();
+            this.btnCadastro = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.btnSair = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txbComplemento = new System.Windows.Forms.TextBox();
             this.mtbCep = new System.Windows.Forms.MaskedTextBox();
@@ -49,98 +42,49 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.btnSair = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.btnCadastro = new System.Windows.Forms.Button();
+            this.mtbTel = new System.Windows.Forms.MaskedTextBox();
+            this.mtbCpf = new System.Windows.Forms.MaskedTextBox();
+            this.txbNome = new System.Windows.Forms.TextBox();
+            this.txbEmail = new System.Windows.Forms.TextBox();
+            this.txbVeic = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblCod = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // btnCadastro
             // 
-            this.label1.AutoSize = true;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Location = new System.Drawing.Point(9, 63);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nome :";
+            this.btnCadastro.Location = new System.Drawing.Point(509, 350);
+            this.btnCadastro.Name = "btnCadastro";
+            this.btnCadastro.Size = new System.Drawing.Size(75, 23);
+            this.btnCadastro.TabIndex = 32;
+            this.btnCadastro.Text = "Alterar";
+            this.btnCadastro.UseVisualStyleBackColor = true;
+            this.btnCadastro.Click += new System.EventHandler(this.btnCadastro_Click);
             // 
-            // label2
+            // label11
             // 
-            this.label2.AutoSize = true;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Location = new System.Drawing.Point(9, 90);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 15);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "CPF :";
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(12, 9);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(233, 37);
+            this.label11.TabIndex = 31;
+            this.label11.Text = "Altera  Clientes";
             // 
-            // label3
+            // btnSair
             // 
-            this.label3.AutoSize = true;
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Location = new System.Drawing.Point(9, 119);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 15);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Email :";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Location = new System.Drawing.Point(9, 150);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 15);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Veiculo :";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label5.Location = new System.Drawing.Point(9, 181);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 15);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Telefone :";
-            // 
-            // txbVeic
-            // 
-            this.txbVeic.Location = new System.Drawing.Point(103, 147);
-            this.txbVeic.Name = "txbVeic";
-            this.txbVeic.Size = new System.Drawing.Size(420, 20);
-            this.txbVeic.TabIndex = 9;
-            // 
-            // txbEmail
-            // 
-            this.txbEmail.Location = new System.Drawing.Point(103, 119);
-            this.txbEmail.Name = "txbEmail";
-            this.txbEmail.Size = new System.Drawing.Size(420, 20);
-            this.txbEmail.TabIndex = 10;
-            // 
-            // txbNome
-            // 
-            this.txbNome.Location = new System.Drawing.Point(103, 58);
-            this.txbNome.Name = "txbNome";
-            this.txbNome.Size = new System.Drawing.Size(420, 20);
-            this.txbNome.TabIndex = 12;
-            // 
-            // mtbCpf
-            // 
-            this.mtbCpf.Location = new System.Drawing.Point(103, 87);
-            this.mtbCpf.Mask = "999.999.999-99";
-            this.mtbCpf.Name = "mtbCpf";
-            this.mtbCpf.Size = new System.Drawing.Size(100, 20);
-            this.mtbCpf.TabIndex = 13;
-            // 
-            // mtbTel
-            // 
-            this.mtbTel.Location = new System.Drawing.Point(102, 181);
-            this.mtbTel.Mask = "(99)99999-9999";
-            this.mtbTel.Name = "mtbTel";
-            this.mtbTel.Size = new System.Drawing.Size(100, 20);
-            this.mtbTel.TabIndex = 14;
+            this.btnSair.Location = new System.Drawing.Point(590, 350);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(75, 23);
+            this.btnSair.TabIndex = 30;
+            this.btnSair.Text = "Sair";
+            this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // groupBox1
             // 
@@ -155,10 +99,10 @@
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(9, 216);
+            this.groupBox1.Location = new System.Drawing.Point(12, 212);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(653, 132);
-            this.groupBox1.TabIndex = 15;
+            this.groupBox1.TabIndex = 29;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Endereço";
             // 
@@ -217,7 +161,6 @@
             this.label9.Size = new System.Drawing.Size(30, 15);
             this.label9.TabIndex = 8;
             this.label9.Text = "CEP";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label8
             // 
@@ -249,42 +192,108 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Logradouro";
             // 
-            // btnSair
+            // mtbTel
             // 
-            this.btnSair.Location = new System.Drawing.Point(587, 354);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(75, 23);
-            this.btnSair.TabIndex = 16;
-            this.btnSair.Text = "Sair";
-            this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            this.mtbTel.Location = new System.Drawing.Point(105, 177);
+            this.mtbTel.Mask = "(99)99999-9999";
+            this.mtbTel.Name = "mtbTel";
+            this.mtbTel.Size = new System.Drawing.Size(100, 20);
+            this.mtbTel.TabIndex = 28;
             // 
-            // label11
+            // mtbCpf
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(9, 13);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(315, 37);
-            this.label11.TabIndex = 17;
-            this.label11.Text = "Cadastro de Clientes";
+            this.mtbCpf.Location = new System.Drawing.Point(106, 83);
+            this.mtbCpf.Mask = "999.999.999-99";
+            this.mtbCpf.Name = "mtbCpf";
+            this.mtbCpf.Size = new System.Drawing.Size(100, 20);
+            this.mtbCpf.TabIndex = 27;
             // 
-            // btnCadastro
+            // txbNome
             // 
-            this.btnCadastro.Location = new System.Drawing.Point(506, 354);
-            this.btnCadastro.Name = "btnCadastro";
-            this.btnCadastro.Size = new System.Drawing.Size(75, 23);
-            this.btnCadastro.TabIndex = 18;
-            this.btnCadastro.Text = "Cadastrar";
-            this.btnCadastro.UseVisualStyleBackColor = true;
-            this.btnCadastro.Click += new System.EventHandler(this.btnCadastro_Click);
+            this.txbNome.Location = new System.Drawing.Point(106, 54);
+            this.txbNome.Name = "txbNome";
+            this.txbNome.Size = new System.Drawing.Size(420, 20);
+            this.txbNome.TabIndex = 26;
             // 
-            // TelaClienteLoja
+            // txbEmail
+            // 
+            this.txbEmail.Location = new System.Drawing.Point(106, 115);
+            this.txbEmail.Name = "txbEmail";
+            this.txbEmail.Size = new System.Drawing.Size(420, 20);
+            this.txbEmail.TabIndex = 25;
+            // 
+            // txbVeic
+            // 
+            this.txbVeic.Location = new System.Drawing.Point(106, 143);
+            this.txbVeic.Name = "txbVeic";
+            this.txbVeic.Size = new System.Drawing.Size(420, 20);
+            this.txbVeic.TabIndex = 24;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label5.Location = new System.Drawing.Point(12, 177);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(57, 15);
+            this.label5.TabIndex = 23;
+            this.label5.Text = "Telefone :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label4.Location = new System.Drawing.Point(12, 146);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 15);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "Veiculo :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label3.Location = new System.Drawing.Point(12, 115);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(40, 15);
+            this.label3.TabIndex = 21;
+            this.label3.Text = "Email :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label2.Location = new System.Drawing.Point(12, 86);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 15);
+            this.label2.TabIndex = 20;
+            this.label2.Text = "CPF :";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Location = new System.Drawing.Point(12, 59);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 15);
+            this.label1.TabIndex = 19;
+            this.label1.Text = "Nome :";
+            // 
+            // lblCod
+            // 
+            this.lblCod.AutoSize = true;
+            this.lblCod.Location = new System.Drawing.Point(590, 40);
+            this.lblCod.Name = "lblCod";
+            this.lblCod.Size = new System.Drawing.Size(41, 13);
+            this.lblCod.TabIndex = 33;
+            this.lblCod.Text = "label12";
+            // 
+            // ClienteAltera
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(707, 406);
+            this.ClientSize = new System.Drawing.Size(759, 438);
+            this.Controls.Add(this.lblCod);
             this.Controls.Add(this.btnCadastro);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.btnSair);
@@ -299,11 +308,8 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "TelaClienteLoja";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TelaClienteLoja";
-            this.Load += new System.EventHandler(this.TelaClienteLoja_Load);
+            this.Name = "ClienteAltera";
+            this.Text = "ClienteAltera";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -313,17 +319,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txbVeic;
-        private System.Windows.Forms.TextBox txbEmail;
-        private System.Windows.Forms.TextBox txbNome;
-        private System.Windows.Forms.MaskedTextBox mtbCpf;
-        private System.Windows.Forms.MaskedTextBox mtbTel;
+        private System.Windows.Forms.Button btnCadastro;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox txbComplemento;
+        private System.Windows.Forms.MaskedTextBox mtbCep;
+        private System.Windows.Forms.TextBox txbBairro;
         private System.Windows.Forms.TextBox txbNumero;
         private System.Windows.Forms.TextBox txbLogradouro;
         private System.Windows.Forms.Label label10;
@@ -331,11 +333,16 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txbBairro;
-        private System.Windows.Forms.TextBox txbComplemento;
-        private System.Windows.Forms.MaskedTextBox mtbCep;
-        private System.Windows.Forms.Button btnSair;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button btnCadastro;
+        private System.Windows.Forms.MaskedTextBox mtbTel;
+        private System.Windows.Forms.MaskedTextBox mtbCpf;
+        private System.Windows.Forms.TextBox txbNome;
+        private System.Windows.Forms.TextBox txbEmail;
+        private System.Windows.Forms.TextBox txbVeic;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblCod;
     }
 }

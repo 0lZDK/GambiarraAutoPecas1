@@ -79,5 +79,47 @@ namespace Gambiarra_DATA
                 throw new Exception("Erro ao inserir cliente. Detalhes: " + ex.Message);
             }
         }
+        public void AlteraCliente(Cliente clientes)
+        {
+            const string query = @"UPDATE clientes SET nome_cliente = @nome_cliente, cpf = @cpf, email = @email, veiculo = @veiculo,
+                                  telefone = @telefone, logradouro = @logradouro, numero_casa = @numero_casa, bairro = bairro, cep = @cep
+                                  complemento = @complemento";
+            try
+            {
+                using (var conexaoBD = new SqlConnection(_conexao))
+                using (var comando = new SqlCommand(query, conexaoBD))
+                {
+                    comando.Parameters.Add("@nome_cliente", SqlDbType.NVarChar).Value = clientes.nome_cliente ?? (object)DBNull.Value;
+                    comando.Parameters.Add("@cpf", SqlDbType.NVarChar).Value = clientes.nome_cliente ?? (object)DBNull.Value;
+                    comando.Parameters.Add("@email", SqlDbType.NVarChar).Value = clientes.nome_cliente ?? (object)DBNull.Value;
+                    comando.Parameters.Add("@veiculo", SqlDbType.NVarChar).Value = clientes.nome_cliente ?? (object)DBNull.Value;
+                    comando.Parameters.Add("@telefone", SqlDbType.NVarChar).Value = clientes.nome_cliente ?? (object)DBNull.Value;
+                    comando.Parameters.Add("@logradouro", SqlDbType.NVarChar).Value = clientes.nome_cliente ?? (object)DBNull.Value;
+                    comando.Parameters.Add("@numero_casa", SqlDbType.NVarChar).Value = clientes.nome_cliente ?? (object)DBNull.Value;
+                    comando.Parameters.Add("@bairro", SqlDbType.NVarChar).Value = clientes.nome_cliente ?? (object)DBNull.Value;
+                    comando.Parameters.Add("@cep", SqlDbType.NVarChar).Value = clientes.nome_cliente ?? (object)DBNull.Value;
+                    comando.Parameters.Add("@complemento", SqlDbType.NVarChar).Value = clientes.nome_cliente ?? (object)DBNull.Value;
+
+                    conexaoBD.Open();
+                    comando.ExecuteNonQuery();
+
+                }
+            }
+            catch(SqlException ex)
+            {
+                throw new Exception($"Erro no banco de dados ao alterar Cliente {ex.Message}", ex);
+            }
+            catch(Exception ex) 
+            {
+                throw new Exception($"Erro ao alterar dados do Cliente{ex.Message}", ex);
+            }
+
+
+
+        }
+
+           
+
+            
     }
 }
